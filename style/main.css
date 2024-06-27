@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'IBM Plex Sans'
+}
+img {
+    width: 200px;
+    min-height: 200px;
+    object-fit: contain;
+}
+h1 {
+    font-weight: 700;
+    position: fixed;
+    top: 0;
+    left: 40vw;
+}
+h2 {
+    line-height: 2px;
+}
+#cheese-price, #ham-price, #buff-price {
+    font-weight: 600;
+    font-size: 1rem;
+    color: grey;
+}
+label, input {
+        margin-top: 1rem;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.row {
+    display: flex;
+}
+.col {
+    padding: 1rem;
+}
+button {
+    display: flex;
+    margin: 0 auto;
+}
+tr, th, td {
+    text-align: left;
+}
+td, th{
+    padding: 1rem;
+}
+table {
+    border: 2px solid black;
+    font-size: 1.2rem;
+}
+
